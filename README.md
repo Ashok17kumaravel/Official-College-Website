@@ -17,7 +17,6 @@ we are now live as <a href="https://smvecclgiceite22.surge.sh/">college website<
 <h3> <a href"#buitwith">Built With</a></h3>
  <b>Html<br>
  Bootstrap<br>
- Jquery<br>
  Javascript<br>
  Bootstrap </b>
 
