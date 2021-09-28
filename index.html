@@ -1,0 +1,1015 @@
+
+<!--------------------------------------------------==========----------------------------------------------------------- -->
+<!--------------------------------------------------==========----------------------------------------------------------- -->
+
+<!--------------------------------------------------DEVELOPERS----------------------------------------------------------- -->
+<!--------------------------------------------------==========----------------------------------------------------------- -->
+
+<!--------------------------------------------------ASHOK K----------------------------------------------------------- -->
+<!--------------------------------------------------==========----------------------------------------------------------- -->
+
+<!--------------------------------------------------LOGESH KRISHNA V---------------------------------------------------------- -->
+<!--------------------------------------------------==========----------------------------------------------------------- -->
+
+<!--------------------------------------------------SHRE AUROBINDO RAM----------------------------------------------------- -->
+<!--------------------------------------------------==========----------------------------------------------------------- -->
+
+<!--------------------------------------------------==========----------------------------------------------------------- -->
+<!--------------------------------------------------==========----------------------------------------------------------- -->
+
+
+<!DOCTYPE html>
+<html>
+  
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.ico">
+
+    <title>ICEITE ‘22</title>
+    <!-- For IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- For Resposive Device -->
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <meta name=”viewport” content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+   
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="56x56" href="http://www.gbpec.edu.in/assets/images/logo_new.png">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <!-- Main style sheet -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- responsive style sheet -->
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+		<!-- j Query -->
+		<script type="text/javascript" src="vendor/jquery.2.2.3.min.js"></script>
+
+		<!-- Bootstrap JS -->
+		<script type="text/javascript" src="vendor/bootstrap/bootstrap.min.js"></script>
+
+		<!-- Vendor js _________ -->
+
+		<!-- revolution -->
+		<script src="vendor/revolution/jquery.themepunch.tools.min.js"></script>
+		<script src="vendor/revolution/jquery.themepunch.revolution.min.js"></script>
+		<script type="text/javascript" src="vendor/revolution/revolution.extension.slideanims.min.js"></script>
+		<script type="text/javascript" src="vendor/revolution/revolution.extension.layeranimation.min.js"></script>
+		<script type="text/javascript" src="vendor/revolution/revolution.extension.navigation.min.js"></script>
+		<script type="text/javascript" src="vendor/revolution/revolution.extension.kenburn.min.js"></script>
+		<script type="text/javascript" src="vendor/revolution/revolution.extension.actions.min.js"></script>
+		<script type="text/javascript" src="vendor/revolution/revolution.extension.video.min.js"></script>
+
+
+
+		<!-- owl.carousel -->
+		<script type="text/javascript" src="vendor/owl-carousel/owl.carousel.min.js"></script>
+		<!-- mixitUp -->
+		<script type="text/javascript" src="vendor/jquery.mixitup.min.js"></script>
+		<!-- Progress Bar js -->
+		<script type="text/javascript" src="vendor/skills-master/jquery.skills.js"></script>
+		<!-- Validation -->
+		<script type="text/javascript" src="vendor/contact-form/validate.js"></script>
+		<script type="text/javascript" src="vendor/contact-form/jquery.form.js"></script>
+
+
+		<!-- Theme js -->
+		<script type="text/javascript" src="js/theme.js"></script>
+		<script type="text/javascript" src="js/map-script.js"></script>
+
+		<script src="//cdn.quilljs.com/1.3.6/quill.js"></script>
+		<script src="//cdn.quilljs.com/1.3.6/quill.min.js"></script>
+
+		<!-- Theme included stylesheets -->
+		<link href="//cdn.quilljs.com/1.3.6/quill.snow.css" rel="stylesheet">
+		<link href="//cdn.quilljs.com/1.3.6/quill.bubble.css" rel="stylesheet">
+
+		<!-- Core build with no theme, formatting, non-essential modules -->
+		<link href="//cdn.quilljs.com/1.3.6/quill.core.css" rel="stylesheet">
+		<script src="//cdn.quilljs.com/1.3.6/quill.core.js"></script>
+</head>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+
+/* html, body {
+margin: 0;
+padding: 0;
+width: 100%;
+height: 100%;
+}
+
+body {
+display: -webkit-box;
+display: flex;
+-webkit-box-align: center;
+        align-items: center;
+-webkit-box-pack: center;
+        justify-content: center;
+padding: 30px 10px;
+font-family: 'Poppins', sans-serif; 
+
+}   */
+input[type=radio] {
+display: none;
+}
+
+.card {
+position: absolute;
+width: 60%;
+height: 60%;
+left: 0;
+right: 0;
+margin: auto;
+-webkit-transition: -webkit-transform .4s ease;
+transition: -webkit-transform .4s ease;
+transition: transform .4s ease;
+transition: transform .4s ease, -webkit-transform .4s ease;
+cursor: pointer;
+}
+
+.containern {
+width: 100%;
+max-width: 400px;
+max-height: 150px;
+height: 100%;
+-webkit-transform-style: preserve-3d;
+        transform-style: preserve-3d;
+display: -webkit-box;
+display: flex;
+-webkit-box-pack: center;
+        justify-content: center;
+-webkit-box-orient: vertical;
+-webkit-box-direction: normal;
+        flex-direction: column;
+-webkit-box-align: center;
+        align-items: center;
+}
+
+.cards {
+position: relative;
+width: 100%;
+height: 100%;
+margin-bottom: 20px;
+}
+
+/* img {
+width: 100%;
+height: 100%;
+border-radius: 10px;
+-o-object-fit: cover;
+   object-fit: cover;
+} */
+#item-7:checked ~ .cards #song-9, #item-8:checked ~ .cards #song-7, #item-9:checked ~ .cards #song-8 {
+-webkit-transform: translatex(-40%) scale(0.8);
+        transform: translatex(-40%) scale(0.8);
+opacity: .4;
+z-index: 0;
+}
+
+#item-7:checked ~ .cards #song-8, #item-8:checked ~ .cards #song-9, #item-9:checked ~ .cards #song-7 {
+-webkit-transform: translatex(40%) scale(0.8);
+        transform: translatex(40%) scale(0.8);
+opacity: .4;
+z-index: 0;
+}
+
+#item-7:checked ~ .cards #song-7, #item-8:checked ~ .cards #song-8, #item-9:checked ~ .cards #song-9 {
+-webkit-transform: translatex(0) scale(1);
+        transform: translatex(0) scale(1);
+opacity: 1;
+z-index: 1;
+}
+#item-7:checked ~ .cards #song-7 img, #item-8:checked ~ .cards #song-8 img, #item-9:checked ~ .cards #song-9 img {
+box-shadow: 0px 0px 5px 0px rgba(81, 81, 81, 0.47);
+}
+
+#item-4:checked ~ .cards #song-6, #item-5:checked ~ .cards #song-4, #item-6:checked ~ .cards #song-5 {
+-webkit-transform: translatex(-40%) scale(0.8);
+        transform: translatex(-40%) scale(0.8);
+opacity: .4;
+z-index: 0;
+}
+
+#item-4:checked ~ .cards #song-5, #item-5:checked ~ .cards #song-6, #item-6:checked ~ .cards #song-4 {
+-webkit-transform: translatex(40%) scale(0.8);
+        transform: translatex(40%) scale(0.8);
+opacity: .4;
+z-index: 0;
+}
+
+#item-4:checked ~ .cards #song-4, #item-5:checked ~ .cards #song-5, #item-6:checked ~ .cards #song-6 {
+-webkit-transform: translatex(0) scale(1);
+        transform: translatex(0) scale(1);
+opacity: 1;
+z-index: 1;
+}
+
+#item-4:checked ~ .cards #song-4 img, #item-5:checked ~ .cards #song-5 img, #item-6:checked ~ .cards #song-6 img {
+box-shadow: 0px 0px 5px 0px rgba(81, 81, 81, 0.47);
+}
+
+#item-1:checked ~ .cards #song-3, #item-2:checked ~ .cards #song-1, #item-3:checked ~ .cards #song-2 {
+-webkit-transform: translatex(-40%) scale(0.8);
+        transform: translatex(-40%) scale(0.8);
+opacity: .4;
+z-index: 0;
+}
+
+#item-1:checked ~ .cards #song-2, #item-2:checked ~ .cards #song-3, #item-3:checked ~ .cards #song-1 {
+-webkit-transform: translatex(40%) scale(0.8);
+        transform: translatex(40%) scale(0.8);
+opacity: .4;
+z-index: 0;
+}
+
+#item-1:checked ~ .cards #song-1, #item-2:checked ~ .cards #song-2, #item-3:checked ~ .cards #song-3 {
+-webkit-transform: translatex(0) scale(1);
+        transform: translatex(0) scale(1);
+opacity: 1;
+z-index: 1;
+}
+#item-1:checked ~ .cards #song-1 img, #item-2:checked ~ .cards #song-2 img, #item-3:checked ~ .cards #song-3 img {
+box-shadow: 0px 0px 5px 0px rgba(81, 81, 81, 0.47);
+}
+
+/* .player {
+background-color: #fff;
+border-radius: 8px;
+min-width: 320px;
+padding: 16px 10px;
+font-weight: 600;
+} */
+
+.upper-part {
+position: relative;
+display: -webkit-box;
+display: flex;
+-webkit-box-align: center;
+        align-items: center;
+margin-bottom: 12px;
+height: 36px;
+overflow: hidden;
+}
+
+/* 
+.info-area {
+width: 100%;
+position: absolute;
+top: 0;
+left: 30px;
+-webkit-transition: -webkit-transform .4s ease-in;
+transition: -webkit-transform .4s ease-in;
+transition: transform .4s ease-in;
+transition: transform .4s ease-in, -webkit-transform .4s ease-in;
+} */
+
+#item-2:checked ~ .player #test {
+-webkit-transform: translateY(0);
+        transform: translateY(0);
+}
+
+#item-2:checked ~ .player #test {
+-webkit-transform: translateY(-40px);
+        transform: translateY(-40px);
+}
+
+#item-3:checked ~ .player #test {
+-webkit-transform: translateY(-40px);
+        transform: translateY(-40px);
+}
+
+#item-5:checked ~ .player #test {
+-webkit-transform: translateY(0);
+        transform: translateY(0);
+}
+
+#item-5:checked ~ .player #test {
+-webkit-transform: translateY(-40px);
+        transform: translateY(-40px);
+}
+
+#item-6:checked ~ .player #test {
+-webkit-transform: translateY(-40px);
+        transform: translateY(-40px);
+}
+
+#item-8:checked ~ .player #test {
+-webkit-transform: translateY(0);
+        transform: translateY(0);
+}
+
+#item-8:checked ~ .player #test {
+-webkit-transform: translateY(-40px);
+        transform: translateY(-40px);
+}
+
+#item-9:checked ~ .player #test {
+-webkit-transform: translateY(-40px);
+        transform: translateY(-40px);
+}
+
+@media (max-width: 767px){
+  .containern{
+      height:300px;
+  }
+}
+
+</style>
+<style>
+	@media (max-width: 650px){
+		.logo{
+			width:60px;
+			height:50px;
+		}
+	}
+
+	</style>
+  <style>
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        /*width: 50%;*/
+            }
+     </style>
+     <!-- center of excellence -->
+     <style>
+
+.containerr {
+position:relative;
+max-width: 420px;
+max-height: auto;
+margin: 100px auto 0 auto;
+perspective: 1000px;
+}
+
+.carousell {
+position: absolute;
+width: 100%;
+height: auto;
+transform-style: preserve-3d; 
+animation: rotate360 60s infinite forwards linear;
+}
+.carousel__face { 
+position: absolute;
+
+width: 300px;
+height: 187px;
+top: 20px;
+left: 50px;
+right: 10px;
+background-size: cover;
+/* box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.5); */
+display: flex;
+}
+
+span {
+margin: auto;
+font-size: 2rem;
+}
+
+
+.carousel__face:nth-child(1) {
+background-image: url("./image/CARRY/1-min.jpg");
+transform: rotateY(  0deg) translateZ(430px); }
+.carousel__face:nth-child(2) { 
+background-image: url("./image/CARRY/2-min.JPG");
+transform: rotateY( 40deg) translateZ(430px); }
+.carousel__face:nth-child(3) {
+background-image: url("./image/CARRY/3-min.JPG");
+transform: rotateY( 80deg) translateZ(430px); }
+.carousel__face:nth-child(4) {
+background-image: url("./image/CARRY/4-min.JPG");
+transform: rotateY(120deg) translateZ(430px); }
+.carousel__face:nth-child(5) { 
+background-image: url("./image/CARRY/5-min.jpeg");
+transform: rotateY(160deg) translateZ(430px); }
+.carousel__face:nth-child(6) { 
+background-image: url("./image/CARRY/6-min.jpeg");
+transform: rotateY(200deg) translateZ(430px); }
+.carousel__face:nth-child(7) { 
+background-image: url("./image/CARRY/7-min.jpeg");
+transform: rotateY(240deg) translateZ(430px); }
+.carousel__face:nth-child(8) {
+background-image: url("./image/CARRY/8-min.jpeg");
+transform: rotateY(280deg) translateZ(430px); }
+.carousel__face:nth-child(9) {
+background-image: url("./image/CARRY/9-min.jpeg");
+transform: rotateY(320deg) translateZ(430px); }
+/* .carousel__face:nth-child(10) {
+background-image: url("./image/CARRY/1-min.jpg");
+transform: rotateY(430deg) translateZ(470px); } */
+
+
+
+@keyframes rotate360 {
+from {
+transform: rotateY(0deg);
+}
+to {
+transform: rotateY(-360deg);
+}
+}
+     </style>
+
+<style>
+
+
+
+.slider {
+  background: white;
+
+	height: 100px;
+	margin: auto;
+	overflow:hidden;
+	position: relative;
+	width: 1500px;
+}
+
+.slidee::before, .slidee::after {
+    /* background: linear-gradient(to right, #fff 0%, rgba(255, 255, 255, 0) 100%); */
+    /* content: "";
+    height: 100%;
+    position: absolute;
+    width: 100px;
+    z-index: 2;
+    @include white-gradient; */
+		content: "";
+		height: 100px;
+		position: absolute;
+		width: 200px;
+		z-index: 2;
+	}
+
+
+.slidee::after {
+    right: 0;
+    top: 0;
+    transform: rotateZ(180deg);
+}
+
+.slidee::before {
+    left: 0;
+    top: 0;
+}
+
+.slidee-track {
+    animation: scroll 3s linear infinite;
+    display: flex;
+    width: calc(250px * 9);
+    
+}
+
+/* .slidee-track:hover {
+    animation-play-state: paused;
+} */
+
+.slidee {
+  height: 100px;
+		width: 280px;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-50px * 9));
+    }
+}
+
+</style>
+
+<style>
+  #content-desktop {display: block;}
+#content-mobile {display: none;}
+
+@media screen and (max-width: 768px) {
+
+#content-desktop {display: none;}
+#content-mobile {display: block;}
+
+}
+</style>
+
+<body style="background-color: #f9ae21;">
+
+  <div class="mov">
+    <p>Visitors count</p>
+ <h1 id="count">0</h1>
+</div>
+
+
+<script>
+var editor = new Quill('.theme-title');  // First matching element will be used
+var container = document.getElementById('editor');
+var editor = new Quill(container);
+var options = {
+  debug: 'info',
+  modules: {
+    toolbar: '#toolbar'
+  },
+  placeholder: 'Compose an epic...',
+  readOnly: true,
+  theme: 'snow'
+};
+var editor = new Quill('.theme-title', options);
+</script>
+
+<script>
+	const countEl = document.getElementById('count');
+
+updateVisitCount();
+
+function updateVisitCount() {
+	 fetch('https://api.countapi.xyz/update/smvecclgiceite22.surge.sh/iceite/?amount=1')
+	.then(res => res.json())
+	.then(res => {
+		countEl.innerHTML = res.value;
+	})
+}
+</script>
+
+
+            	<!--
+			=============================================
+				Theme Header
+			==============================================
+			-->
+			<header style="background-color: #3d6094;" class="theme-main-header">
+				<div class="container">
+					<a href="index.html" class="logo float-left tran4s"></a>
+
+					<!-- ========================= Theme Feature Page Menu ======================= -->
+					<nav class="navbar float-right theme-main-menu fixed-top">
+					   <!-- Brand and toggle get grouped for better mobile display -->
+					   <div class="navbar-header">
+						 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+						  <!-- <a href="index.html"><h6 style="color: beige;">Home &nbsp;&nbsp;</h6></a>  -->
+              <span class="sr-only">Toggle navigation</span>
+               Menu
+						   <i class="fa fa-bars" aria-hidden="true"></i>
+						 </button>
+					   </div>
+					   <!-- Collect the nav links, forms, and other content for toggling -->
+					   <div class="collapse navbar-collapse" id="navbar-collapse-1">
+						 <ul class="nav navbar-nav">
+               <li><a class="active" href="#">HOME</a></li>
+            <li><a  href="about.html">ABOUT</a></li>
+            
+
+
+            <li class="dropdown-holder"><a href="#">SUBMISSION GUIDELINES</a>
+              <ul class="sub-menu">
+              <li><a href="tracks.html" class="tran3s">Tracks</a></li>
+                <li><a href="submission.html" class="tran3s">Submission</a></li>
+                <li><a href="callforpaper.html" class="tran3s">Important Dates</a></li>
+              
+              </ul>
+            </li>
+
+            <li ><a href="keynotespeaker.html">KEYNOTE SPEAKERS</a></li>
+            <li><a href="chiefpatron.html">COMMITTEE</a>
+              <li><a href="placetovisit.html">PLACE TO VISIT</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+</ul>
+
+					   </div><!-- /.navbar-collapse -->
+					</nav> <!-- /.theme-feature-menu -->
+				</div>
+			</header> <!-- /.theme-main-header -->
+
+
+            <br>
+            <br>
+            
+            
+            <img src="./image/line.png "alt="ops" class="banner" style="width: 100%;
+            height: auto;">
+            <img src="./image/SRI MANAKULA VINAYAGAR ENGINEERING COLLEGE.png "alt="ops" class="banner" style="width: 100%;
+            height: auto;">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                  <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                  <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                  <div class="item active">
+                    <img src="./image/image.png" alt="post" style="width: 100%;
+                    height: auto;" >
+                  </div>
+                  <div class="item">
+                    <img src="./image/SRI MANAKULA VINAYAGAR ENGINEERING COLLEGE (2).png"  alt="post3" style="width: 100%;
+                    height: auto;">
+                  </div>
+                </div>
+
+                <!-- Controls -->
+                <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                  <span class="glyphicon glyphicon-chevron-right"  aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+              <br>
+              <br>
+              <div class="theme-title">
+                <h2 style="color: #185ADB;" >DATE</h2>
+
+            </div> <!-- /.theme-title -->\
+            <br>
+            <br>
+              <img src="./image/dates.png" alt="imp" class="center">
+              <br>
+              <span><h3 style="text-align: center; color: #10375C;">16 - 18<br> Wednesday - Friday <br> March 2022</h3></span>
+              <br>
+              
+              <!-- <div class="containerr">
+                <div class="carousell">
+                  <div class="carousel__face"></div>
+                  <div class="carousel__face"></div>
+                  <div class="carousel__face"></div>
+                  <div class="carousel__face"></div>
+                  <div class="carousel__face"></div>
+                  <div class="carousel__face"></div>
+                  <div class="carousel__face"></div>
+                  <div class="carousel__face">></div>
+                  <div class="carousel__face"></div>
+                </div>
+              </div>
+              <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br> -->
+              <br>
+              <div class="theme-title">
+                <h2 style="color: #185ADB;" >Centre Of Excellence</h2>
+                <div class="coeF">
+                <p style="color: #10375C;"><b>42</b> &nbsp; MOUs <br> <b>17</b>&nbsp; Centre Of Excellence<br>
+                    <b>90</b>&nbsp; International Certification Courses<br></p>
+                  </div>
+            </div> <!-- /.theme-title -->
+            <!-- <br>
+            <br> -->
+            <br>
+            
+            <div class="theLoader">
+              <div class="containerr" >
+                <div class="carousell">
+                  <div class="carousel__face"></div>
+                  <div class="carousel__face"></div>
+                  <div class="carousel__face"></div>
+                  <div class="carousel__face"></div>
+                  <div class="carousel__face"></div>
+                  <div class="carousel__face"></div>
+                  <div class="carousel__face"></div>
+                  <div class="carousel__face">></div>
+                  <div class="carousel__face"></div>
+                </div>
+              </div>
+            </div>
+            <br>
+          <div id="content-desktop">
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+        </div>
+        
+          <div class="containern " id="content-mobile">
+            <input type="radio" name="slider" id="item-1" checked>
+            <input type="radio" name="slider" id="item-2">
+            <input type="radio" name="slider" id="item-3">
+
+          <div class="cards">
+            <label class="card" for="item-1" id="song-1">
+              <img src="image/CARRY/1-min.jpg" alt="song">
+            </label>
+            <label class="card" for="item-2" id="song-2">
+              <img src="image/CARRY/2-min.JPG" alt="song">
+            </label>
+            <label class="card" for="item-3" id="song-3">
+              <img src="image/CARRY/3-min.JPG" alt="song">
+            </label>
+          </div>
+          </div>
+          <br>
+          <br>
+          <div class="containern " id="content-mobile">
+            <input type="radio" name="slider" id="item-4" checked>
+            <input type="radio" name="slider" id="item-5">
+            <input type="radio" name="slider" id="item-6">
+
+          <div class="cards">
+            <label class="card" for="item-4" id="song-4">
+              <img src="image/CARRY/4-min.JPG" alt="song">
+            </label>
+            <label class="card" for="item-5" id="song-5">
+              <img src="image/CARRY/5-min.jpeg" alt="song">
+            </label>
+            <label class="card" for="item-6" id="song-6">
+              <img src="image/CARRY/6-min.jpeg" alt="song">
+            </label>
+          </div>
+          </div>
+          <br>
+          <div class="containern " id="content-mobile">
+            <input type="radio" name="slider" id="item-7" checked>
+            <input type="radio" name="slider" id="item-8">
+            <input type="radio" name="slider" id="item-9">
+
+          <div class="cards">
+            <label class="card" for="item-7" id="song-7">
+              <img src="image/CARRY/7-min.jpeg" alt="song">
+            </label>
+            <label class="card" for="item-8" id="song-8">
+              <img src="image/CARRY/8-min.jpeg" alt="song">
+            </label>
+            <label class="card" for="item-9" id="song-9">
+              <img src="image/CARRY/9-min.jpeg" alt="song">
+            </label>
+          </div>
+          </div>
+        <div id="content-desktop">
+          <br>
+          <br>
+            <br>
+            </div>
+            
+           
+
+                 
+                  
+               
+      </div>
+      </div>
+      <br>
+     
+            
+            <!-- <section>
+              <div class="container-fluid">
+
+                 
+                  <div id="my-pics" class="carousel slide" data-ride="carousel" style="width:600px;margin:auto;">
+                  
+                  
+                  <ol class="carousel-indicators">
+                  <li data-target="#my-pics" data-slide-to="0" class="active"></li>
+                  <li data-target="#my-pics" data-slide-to="1"></li>
+                  <li data-target="#my-pics" data-slide-to="2"></li>
+                  <li data-target="#my-pics" data-slide-to="3"></li>
+                  </ol>
+                  
+                  
+                  <div class="carousel-inner" role="listbox">
+                  
+                 
+                  <div class="item active">
+                  <img src="./image/CARRY/1-min.jpg" alt="Sunset over beach">
+                  </div>
+                  
+                  <div class="item">
+                  <img src="./image/CARRY/2-min.JPG" alt="Rob Roy Glacier">
+                  </div>
+                  
+              
+                  <div class="item">
+                  <img src="./image/CARRY/3-min.JPG" alt="Longtail boats at Phi Phi">
+                  </div>
+                  
+                 
+                  <div class="item">
+                  <img src="./image/CARRY/4-min.JPG" alt="Longtail boats at Phi Phi">
+                  </div>
+
+                  </div>
+                  
+                 
+                  <a class="left carousel-control" href="#my-pics" role="button" data-slide="prev">
+                  <span class="icon-prev" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="right carousel-control" href="#my-pics" role="button" data-slide="next">
+                  <span class="icon-next" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                  </a>
+                  
+                  </div>
+                  
+                  </div>
+                          
+                 
+                  
+
+                </section> -->
+
+             
+
+           <br>
+
+           <div class="slider">
+            <div class="slidee-track">
+              <div class="slidee">
+                <img src="./image/company/abb.png" height="100" width="250" alt="" />
+              </div>
+              <div class="slidee">
+                <img src="./image/company/amz.png" height="100" width="250" alt="" />
+              </div>
+              <div class="slidee">
+                <img src="./image/company/Dell - Copy.png" height="100" width="250" alt="" />
+              </div>
+              <div class="slidee">
+                <img src="./image/company/emc.png" height="100" width="250" alt="" />
+              </div>
+              <div class="slidee">
+                <img src="./image/company/PTC.png" height="100" width="250" alt="" />
+              </div>
+              <div class="slidee">
+                <img src="./image/company/salesforce.png" height="100" width="250" alt="" />
+              </div>
+              <div class="slidee">
+                <img src="./image/company/schneider.png" height="100" width="250" alt="" />
+              </div>
+              <div class="slidee">
+                <img src="./image/company/Siemens.png" height="100" width="250" alt="" />
+              </div>
+            </div>
+          </div>
+  <br>
+
+<div class="main-frame">
+    <!-- <h3  id="about"> ABOUT THE INSTITUTE</h3> -->
+
+            <div class="theme-title">
+                <h2 style="color: #185ADB;" >REGISTRATION DETAILS</h2>
+
+            </div> <!-- /.theme-title -->\
+            <br>
+            <br>
+
+    </div>
+        </div>
+
+            <div>
+                         <p  style="text-align: center; font-size: 20px;"><strong style="color: #10375C;" class="glyphicon glyphicon-hand-right"> Students – UG/PG/ Research Scholars</strong>   :<span style="font-size: 19px; color: black;" > &#x20B9;. 1000/-</span></p>
+                            <br>
+                            <br>
+
+                            <p style="text-align: center;font-size: 20px;"><strong style="color: #10375C;" class="glyphicon glyphicon-hand-right"> Academicians   </strong>                       : <span style="font-size: 19px; color: black;">&#x20B9;. 1500/-</span></p>
+                            <br>
+                            <br>
+
+                            <p style="text-align: center;font-size: 20px;"><strong style="color: #10375C;" class="glyphicon glyphicon-hand-right"> Industry Delegates </strong>                   :<span style="font-size: 19px; color: black;"> &#x20B9;. 2000/-</span></p>
+                            <br>
+                            <br>
+
+                            <p style="text-align: center;font-size: 20px;"><strong style="color: #10375C;" class="glyphicon glyphicon-hand-right"> Foreign Delegates </strong>                    : <span style="font-size: 19px; color: black;"> 100 USD</span></p>
+                            <br>
+                            <br>
+
+
+                            <p style="text-align: center;font-size: 20px;"><strong style="color: #10375C;" class="glyphicon glyphicon-asterisk" style="font-size: 19px;"><em><b>SC/ST Candidates are exempted from registration fee by submitting required proof.</em></strong></p>
+                        <br>
+        </div>
+    </div>
+</div>
+
+
+<!-- Footer -->
+<footer style="justify-content: center; color: rgb(216, 209, 209);" class="bg1" >
+	<div class="container p-t-40 p-b-70">
+		<div class="row">
+			<div class="">
+				<!-- - -->
+				<h4 class="txt13 m-b-33" style="color: #e8e8e8;">
+					Contact Us
+				</h4>
+
+				<ul class="m-b-70">
+					<li class="txt14 m-b-14">
+						<i class="fa fa-map-marker fs-16 dis-inline-block size19" aria-hidden="true"></i>
+
+                     No,23, Mari Amman Koil St, Madagadipet
+                     Puducherry-605107.
+
+
+					</li>
+<br>
+					<li class="txt14 m-b-14">
+						<i class="fa fa-phone fs-16 dis-inline-block size19" aria-hidden="true"></i>
+            <i class="lni lni-code size19" aria-hidden="true"></i>
+						+91 413 2642000,+91 9791378509 ,+91 9003739274.
+					</li>
+<br>
+					<li class="txt14 m-b-14">
+						<i class="fa fa-envelope fs-13 dis-inline-block size19" aria-hidden="true"></i>
+						iceite22@smvec.ac.in 
+            <br>
+            
+					</li>
+  
+				</ul>
+          
+<br>
+
+				<!-- - -->
+				<h4 class="txt13 m-b-32" style="color: #e8e8e8;">
+					Opening
+				</h4>
+
+				<ul>
+					<li class="txt14">
+						09:30 AM – 5:00 PM
+					</li>
+
+					<li class="txt14">
+					Working Days
+					</li>
+				</ul>
+			</div>
+
+
+	<div class="end-footer bg2">
+		<div class="container">
+			<div class="flex-sb-m flex-w p-t-22 p-b-22">
+			<!--	<div class="p-t-5 p-b-5">
+					<a href="#" class="fs-15 c-white"><i class="fa fa-tripadvisor" aria-hidden="true"></i></a>
+					<a href="#" class="fs-15 c-white"><i class="fa fa-facebook m-l-18" aria-hidden="true"></i></a>
+					<a href="#" class="fs-15 c-white"><i class="fa fa-twitter m-l-18" aria-hidden="true"></i></a>
+				</div>-->
+
+				<div class="txt17 p-r-20 p-t-5 p-b-5">
+					   Copyright &copy;    All rights reserved <br>
+
+<!-- <i class="fa fa-code" aria-hidden="true"></i>
+            <a href="https://nodsync.github.io/Nodsync-Website/"><p style="text-decoration: #e8e8e8;">Nodsync</p></a> -->
+
+			</div>
+		</div>
+	</div>
+</footer>
+
+<!-- Scroll Top Button -->
+   <button class="scroll-top tran3s p-color-bg">
+	<i class="fas fa-angle-double-up" aria-hidden="true"></i>
+</button>
+
+
+</body>
+</html>
+

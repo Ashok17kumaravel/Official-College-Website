@@ -1,0 +1,7 @@
+
+Don't Delete ;_;
+             T-T
+             : (
+                 or maybe hide me
+style="width: 100%; display: flex;justify-content: space-around; margin: auto;">
+                <div class="col-lg-4 col-sm-12" style="padding: 0; width: 32%;">
