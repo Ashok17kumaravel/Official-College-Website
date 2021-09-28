@@ -19,5 +19,5 @@ we are now live as <a href="https://smvecclgiceite22.surge.sh/">college website<
  Bootstrap<br>
  Javascript<br>
  Bootstrap </b>
-
+<hr>
  
